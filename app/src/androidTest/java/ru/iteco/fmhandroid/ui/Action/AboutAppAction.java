@@ -1,5 +1,5 @@
 
-package ru.iteco.fmhandroid.ui;
+package ru.iteco.fmhandroid.ui.Action;
 
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;

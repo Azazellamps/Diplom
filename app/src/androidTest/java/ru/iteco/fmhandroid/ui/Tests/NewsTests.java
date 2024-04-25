@@ -1,17 +1,11 @@
-import static androidx.test.espresso.matcher.ViewMatchers.withText;
-import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.not;
-
+package ru.iteco.fmhandroid.ui.Tests;
 
 import io.qameta.allure.android.runners.AllureAndroidJUnit4;
 import io.qameta.allure.kotlin.junit4.DisplayName;
+import ru.iteco.fmhandroid.ui.Action.AuthorizationAction;
+import ru.iteco.fmhandroid.ui.Action.NewsAction;
+import ru.iteco.fmhandroid.ui.Action.PanelAction;
 import ru.iteco.fmhandroid.ui.AppActivity;
-import ru.iteco.fmhandroid.ui.AuthorizationAction;
-import ru.iteco.fmhandroid.ui.NewsAction;
-import ru.iteco.fmhandroid.ui.NewsEditingAction;
-import ru.iteco.fmhandroid.ui.PanelAction;
-
-
 
 import androidx.test.rule.ActivityTestRule;
 

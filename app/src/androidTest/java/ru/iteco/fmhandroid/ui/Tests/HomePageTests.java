@@ -1,6 +1,10 @@
-package ru.iteco.fmhandroid.ui;
+package ru.iteco.fmhandroid.ui.Tests;
 import io.qameta.allure.android.runners.AllureAndroidJUnit4;
 import io.qameta.allure.kotlin.junit4.DisplayName;
+import ru.iteco.fmhandroid.ui.Action.AuthorizationAction;
+import ru.iteco.fmhandroid.ui.Action.HomePageAction;
+import ru.iteco.fmhandroid.ui.Action.PanelAction;
+import ru.iteco.fmhandroid.ui.AppActivity;
 
 import androidx.test.rule.ActivityTestRule;
 

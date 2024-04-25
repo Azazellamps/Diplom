@@ -1,4 +1,4 @@
-package ru.iteco.fmhandroid.ui;
+package ru.iteco.fmhandroid.ui.Tests;
 
 import androidx.test.espresso.intent.rule.IntentsTestRule;
 
@@ -11,6 +11,10 @@ import org.junit.runners.MethodSorters;
 
 import io.qameta.allure.android.runners.AllureAndroidJUnit4;
 import io.qameta.allure.kotlin.junit4.DisplayName;
+import ru.iteco.fmhandroid.ui.Action.AboutAppAction;
+import ru.iteco.fmhandroid.ui.Action.AuthorizationAction;
+import ru.iteco.fmhandroid.ui.Action.PanelAction;
+import ru.iteco.fmhandroid.ui.AppActivity;
 
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
