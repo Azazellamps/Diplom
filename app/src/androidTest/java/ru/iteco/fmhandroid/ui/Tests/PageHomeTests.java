@@ -2,7 +2,7 @@ package ru.iteco.fmhandroid.ui.Tests;
 import io.qameta.allure.android.runners.AllureAndroidJUnit4;
 import io.qameta.allure.kotlin.junit4.DisplayName;
 import ru.iteco.fmhandroid.ui.Action.AuthorizationAction;
-import ru.iteco.fmhandroid.ui.Action.HomePageAction;
+import ru.iteco.fmhandroid.ui.Action.PageHomeAction;
 import ru.iteco.fmhandroid.ui.Action.PanelAction;
 import ru.iteco.fmhandroid.ui.AppActivity;
 
@@ -19,7 +19,7 @@ import org.junit.runners.MethodSorters;
 
 @RunWith(AllureAndroidJUnit4.class)
 
-public class HomePageTests {
+public class PageHomeTests {
     @Rule
     public ActivityTestRule<AppActivity> activityTestRule =
             new ActivityTestRule<>(AppActivity.class);
@@ -33,21 +33,21 @@ public class HomePageTests {
         AuthorizationAction.loginPersonalAccount(TrueLogin,TruePassword );
         PanelAction.checkButtonLogIn();
         Thread.sleep(3000);
-        HomePageAction.homePageNews();
+        PageHomeAction.homePageNews();
     }
 
     @Test
     @DisplayName("Развернуть раздел новости")
     public void arrowButtonNews() throws InterruptedException {
         Thread.sleep(3000);
-      HomePageAction.arrowExpandNewsButton();
+      PageHomeAction.arrowExpandNewsButton();
     }
 
     @Test
     @DisplayName("Развернуть новость в списке новстей")
     public void arrowNewsList() throws InterruptedException {
         Thread.sleep(3000);
-        HomePageAction.arrowNewsFromTheList();
+        PageHomeAction.arrowNewsFromTheList();
     }
 
     @Test

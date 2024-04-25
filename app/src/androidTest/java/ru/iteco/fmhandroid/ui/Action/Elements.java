@@ -23,6 +23,6 @@ public class Elements {
     public static ViewInteraction privacyPolicyValue = onView(withText("https://vhospice.org/#/privacy-policy"));
     public static ViewInteraction termsOfUseValue = onView(withText("https://vhospice.org/#/terms-of-use"));
     public static ViewInteraction infoLabel = onView(withText("© Айтеко, 2022"));
-    public static ViewInteraction filternews = onView(withText("Фильтровать новости"));
+    public static ViewInteraction filterNews = onView(withText("Фильтровать новости"));
 
 }

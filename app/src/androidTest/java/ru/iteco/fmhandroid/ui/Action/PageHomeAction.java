@@ -26,7 +26,7 @@ import org.hamcrest.core.IsInstanceOf;
 import ru.iteco.fmhandroid.R;
 
 
-public class HomePageAction {
+public class PageHomeAction {
 
     public static void homePageNews() {
         onView(allOf(withText("Новости"),

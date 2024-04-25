@@ -2,8 +2,8 @@ package ru.iteco.fmhandroid.ui.Tests;
 import io.qameta.allure.android.runners.AllureAndroidJUnit4;
 import io.qameta.allure.kotlin.junit4.DisplayName;
 import ru.iteco.fmhandroid.ui.Action.AuthorizationAction;
-import ru.iteco.fmhandroid.ui.Action.NewsAction;
-import ru.iteco.fmhandroid.ui.Action.NewsEditingAction;
+import ru.iteco.fmhandroid.ui.Action.NewsPartitionAction;
+import ru.iteco.fmhandroid.ui.Action.NewsRedactAction;
 import ru.iteco.fmhandroid.ui.Action.PanelAction;
 import ru.iteco.fmhandroid.ui.AppActivity;
 
@@ -20,7 +20,7 @@ import org.junit.runners.MethodSorters;
 
 @RunWith(AllureAndroidJUnit4.class)
 
-public class NewsEditingTests {
+public class NewsRedactTests {
     @Rule
     public ActivityTestRule<AppActivity> activityTestRule =
             new ActivityTestRule<>(AppActivity.class);
@@ -34,27 +34,26 @@ public class NewsEditingTests {
         AuthorizationAction.loginPersonalAccount(TrueLogin, TruePassword);
         PanelAction.checkButtonLogIn();
         Thread.sleep(5000);
-        NewsAction.allNews();
-        NewsEditingAction.newsControlPanel();
-        NewsEditingAction.activeNotActive();
+        NewsPartitionAction.allNews();
+        NewsRedactAction.newsControlPanel();
+        NewsRedactAction.activeNotActive();
     }
     @Test
     @DisplayName("Отмена удаления новости")
     public void canceldeleteNews() throws InterruptedException {
         Thread.sleep(5000);
-        NewsAction.allNews();
-        NewsEditingAction.newsControlPanel();
-        NewsEditingAction.cancelDeleteNews();
+        NewsPartitionAction.allNews();
+        NewsRedactAction.newsControlPanel();
+        NewsRedactAction.cancelDeleteNews();
     }
-
 
     @Test
     @DisplayName("Удаление новости")
     public void deleteNews() throws InterruptedException {
         Thread.sleep(5000);
-        NewsAction.allNews();
-        NewsEditingAction.newsControlPanel();
-        NewsEditingAction.deleteNews();
+        NewsPartitionAction.allNews();
+        NewsRedactAction.newsControlPanel();
+        NewsRedactAction.deleteNews();
     }
 
 
@@ -62,17 +61,17 @@ public class NewsEditingTests {
     @DisplayName("Редактирование новости")
     public void editingNews() throws InterruptedException {
         Thread.sleep(5000);
-        NewsAction.allNews();
-        NewsEditingAction.newsControlPanel();
-        NewsEditingAction.editNews();
+        NewsPartitionAction.allNews();
+        NewsRedactAction.newsControlPanel();
+        NewsRedactAction.editNews();
     }
 
     @Test
     @DisplayName("Отмена редактирования новости")
     public void editingNewsCancel() throws InterruptedException {
         Thread.sleep(5000);
-        NewsAction.allNews();
-        NewsEditingAction.newsControlPanel();
-        NewsEditingAction.editNewsCancel();
+        NewsPartitionAction.allNews();
+        NewsRedactAction.newsControlPanel();
+        NewsRedactAction.editNewsCancel();
     }
 }

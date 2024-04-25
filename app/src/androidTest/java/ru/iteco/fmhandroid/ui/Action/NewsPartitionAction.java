@@ -29,7 +29,7 @@ import org.hamcrest.core.IsInstanceOf;
 
 import ru.iteco.fmhandroid.R;
 
-public class NewsAction {
+public class NewsPartitionAction {
 
     public static void allNews() throws InterruptedException {
         Thread.sleep(5000);
@@ -415,7 +415,7 @@ public class NewsAction {
         }
 
     public static void filterForm() {
-        Elements.filternews.check(matches(isDisplayed()));
+        Elements.filterNews.check(matches(isDisplayed()));
     }
 
     public static void filterEmpty() throws InterruptedException {

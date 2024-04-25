@@ -14,7 +14,7 @@ import ru.iteco.fmhandroid.ui.Action.ButterflyAction;
 import ru.iteco.fmhandroid.ui.Action.PanelAction;
 import ru.iteco.fmhandroid.ui.AppActivity;
 
-
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
 @RunWith(AllureAndroidJUnit4.class)
 
@@ -29,7 +29,7 @@ public class ButterflyTests {
 
     @Test
     @DisplayName("Раздел бабочка")
-    public void ButterflyPage() throws InterruptedException {
+    public void butterflyPage() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.loginPersonalAccount(TrueLogin, TruePassword);
         PanelAction.checkButtonLogIn();
@@ -39,8 +39,7 @@ public class ButterflyTests {
 
     @Test
     @DisplayName("Развернуть цитату")
-    public void ButtonArrow() throws InterruptedException {
-
+    public void buttonArrow() throws InterruptedException {
         Thread.sleep(3000);
         ButterflyAction.arrowExpand();
     }

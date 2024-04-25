@@ -2,7 +2,6 @@ package ru.iteco.fmhandroid.ui.Tests;
 
 import androidx.test.espresso.intent.rule.IntentsTestRule;
 
-import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Rule;
 import org.junit.Test;
@@ -33,7 +32,7 @@ public class AboutAppTest {
 
     @Test
     @DisplayName("Раздел о приложении")
-    public void aboutBlock() throws InterruptedException {
+    public void aboutSection() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.loginPersonalAccount(TrueLogin, TruePassword);
         PanelAction.checkButtonLogIn();
@@ -60,4 +59,14 @@ public class AboutAppTest {
         AboutAppAction.goToTermsOfUse();
         AboutAppAction.checkTermsOfUse();
     }
+    @Test
+    @DisplayName("Кнопка вернуться на главную страницу")
+    public void returnButton() throws InterruptedException {
+        Thread.sleep(3000);
+        PanelAction.menuAboutTheApp();
+        AboutAppAction.readAppPage();
+        AboutAppAction.returnButton();
+
+    }
+
 }

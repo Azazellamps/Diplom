@@ -1,16 +1,19 @@
 package ru.iteco.fmhandroid.ui.Tests;
 
 import androidx.test.rule.ActivityTestRule;
+
+import org.junit.FixMethodOrder;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.junit.runners.MethodSorters;
 
 import io.qameta.allure.android.runners.AllureAndroidJUnit4;
 import io.qameta.allure.kotlin.junit4.DisplayName;
 import ru.iteco.fmhandroid.ui.Action.AuthorizationAction;
 import ru.iteco.fmhandroid.ui.Action.PanelAction;
 
-
+//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @RunWith(AllureAndroidJUnit4.class)
 public class AuthorizationTests {
     @Rule
@@ -46,7 +49,7 @@ public class AuthorizationTests {
     }
     @Test
     @DisplayName("Авторизация. Ошибочный логин верный пароль")
-    public void wrongLoginCorrectPassword() throws InterruptedException {
+    public void correctPasswordWrongLogin() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.loginPersonalAccount(EroneousLogin, TruePassword);
         AuthorizationAction.buttonAuthorization();
@@ -63,7 +66,7 @@ public class AuthorizationTests {
 
     @Test
     @DisplayName("Авторизация. Логин и пароль пустые поля")
-    public void loginAndPasswordAreEmpty() throws InterruptedException {
+    public void emptyloginAndPassword() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.buttonAuthorization();
         AuthorizationAction.textAuthorization();

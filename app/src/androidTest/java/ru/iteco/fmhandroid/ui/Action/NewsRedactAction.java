@@ -22,7 +22,7 @@ import org.hamcrest.TypeSafeMatcher;
 import org.hamcrest.core.IsInstanceOf;
 import ru.iteco.fmhandroid.R;
 
-public class NewsEditingAction {
+public class NewsRedactAction {
 
     public static void newsControlPanel() throws InterruptedException {
         Thread.sleep(5000);
