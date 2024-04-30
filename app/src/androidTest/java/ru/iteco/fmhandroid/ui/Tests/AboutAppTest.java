@@ -31,7 +31,6 @@ public class AboutAppTest {
 
 
     @Test
-    @DisplayName("Раздел о приложении")
     public void aboutSection() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.loginPersonalAccount(TrueLogin, TruePassword);
@@ -42,7 +41,6 @@ public class AboutAppTest {
     }
 
     @Test
-    @DisplayName("Переход к политике конфиденциальности по ссылке")
     public void goPrivacyPolicy() throws InterruptedException {
         Thread.sleep(3000);
         PanelAction.menuAboutTheApp();
@@ -52,7 +50,6 @@ public class AboutAppTest {
     }
 
     @Test
-    @DisplayName("Переход к пользовательскому соглашению по ссылке")
     public void goTermsOfUse() throws InterruptedException {
         Thread.sleep(3000);
         PanelAction.menuAboutTheApp();
@@ -60,7 +57,6 @@ public class AboutAppTest {
         AboutAppAction.checkTermsOfUse();
     }
     @Test
-    @DisplayName("Кнопка вернуться на главную страницу")
     public void returnButton() throws InterruptedException {
         Thread.sleep(3000);
         PanelAction.menuAboutTheApp();

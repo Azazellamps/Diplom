@@ -28,7 +28,6 @@ public class ButterflyTests {
     String TruePassword = "password2";
 
     @Test
-    @DisplayName("Раздел бабочка")
     public void butterflyPage() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.loginPersonalAccount(TrueLogin, TruePassword);
@@ -38,7 +37,6 @@ public class ButterflyTests {
     }
 
     @Test
-    @DisplayName("Развернуть цитату")
     public void buttonArrow() throws InterruptedException {
         Thread.sleep(3000);
         ButterflyAction.arrowExpand();

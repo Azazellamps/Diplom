@@ -28,7 +28,6 @@ public class NewsRedactTests {
     String TruePassword = "password2";
 
     @Test
-    @DisplayName("Сделать новость неактивной")
     public void activeNotActive() throws InterruptedException {
         Thread.sleep(5000);
         AuthorizationAction.loginPersonalAccount(TrueLogin, TruePassword);
@@ -39,7 +38,6 @@ public class NewsRedactTests {
         NewsRedactAction.activeNotActive();
     }
     @Test
-    @DisplayName("Отмена удаления новости")
     public void canceldeleteNews() throws InterruptedException {
         Thread.sleep(5000);
         NewsPartitionAction.allNews();
@@ -48,7 +46,6 @@ public class NewsRedactTests {
     }
 
     @Test
-    @DisplayName("Удаление новости")
     public void deleteNews() throws InterruptedException {
         Thread.sleep(5000);
         NewsPartitionAction.allNews();
@@ -58,7 +55,6 @@ public class NewsRedactTests {
 
 
     @Test
-    @DisplayName("Редактирование новости")
     public void editingNews() throws InterruptedException {
         Thread.sleep(5000);
         NewsPartitionAction.allNews();
@@ -67,7 +63,6 @@ public class NewsRedactTests {
     }
 
     @Test
-    @DisplayName("Отмена редактирования новости")
     public void editingNewsCancel() throws InterruptedException {
         Thread.sleep(5000);
         NewsPartitionAction.allNews();

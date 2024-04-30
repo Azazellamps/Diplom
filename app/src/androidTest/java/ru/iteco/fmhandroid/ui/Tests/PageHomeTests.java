@@ -27,7 +27,6 @@ public class PageHomeTests {
     String TruePassword = "password2";
 
     @Test
-    @DisplayName("Отображение главной страницы ")
     public void HomePage() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.loginPersonalAccount(TrueLogin,TruePassword );
@@ -37,28 +36,24 @@ public class PageHomeTests {
     }
 
     @Test
-    @DisplayName("Развернуть раздел новости")
     public void arrowButtonNews() throws InterruptedException {
         Thread.sleep(3000);
       PageHomeAction.arrowExpandNewsButton();
     }
 
     @Test
-    @DisplayName("Развернуть новость в списке новстей")
     public void arrowNewsList() throws InterruptedException {
         Thread.sleep(3000);
         PageHomeAction.arrowNewsFromTheList();
     }
 
     @Test
-    @DisplayName("Меню переход в Новости")
     public void menuNews() throws InterruptedException {
         Thread.sleep(5000);
         PanelAction.newsBlock();
 
     }
     @Test
-    @DisplayName("Меню переход в Главная")
     public void menuHome() throws InterruptedException {
         Thread.sleep(5000);
         PanelAction.menuHome();

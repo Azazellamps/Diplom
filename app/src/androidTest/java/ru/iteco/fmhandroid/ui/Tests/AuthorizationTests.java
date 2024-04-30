@@ -13,7 +13,7 @@ import io.qameta.allure.kotlin.junit4.DisplayName;
 import ru.iteco.fmhandroid.ui.Action.AuthorizationAction;
 import ru.iteco.fmhandroid.ui.Action.PanelAction;
 
-//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @RunWith(AllureAndroidJUnit4.class)
 public class AuthorizationTests {
     @Rule
@@ -30,7 +30,6 @@ public class AuthorizationTests {
     String ErroneousPassword = "password555";
 
     @Test
-    @DisplayName("Авторизация. Верный логин и пароль")
     public void autarizationSuccessful() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.loginPersonalAccount(TrueLogin,TruePassword );
@@ -40,7 +39,6 @@ public class AuthorizationTests {
     }
 
     @Test
-    @DisplayName("Авторизация. Неверный логин и пароль")
     public void incorrectLoginAndPassword() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.loginPersonalAccount(IncorrectLogin,IncorrectPassword);
@@ -48,7 +46,6 @@ public class AuthorizationTests {
         AuthorizationAction.textAuthorization();
     }
     @Test
-    @DisplayName("Авторизация. Ошибочный логин верный пароль")
     public void correctPasswordWrongLogin() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.loginPersonalAccount(EroneousLogin, TruePassword);
@@ -56,7 +53,6 @@ public class AuthorizationTests {
         AuthorizationAction.textAuthorization();
     }
     @Test
-    @DisplayName("Авторизация. Верный логин ошибочный пароль")
     public void correctLoginWrongPassword() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.loginPersonalAccount(TrueLogin, ErroneousPassword);
@@ -65,7 +61,6 @@ public class AuthorizationTests {
     }
 
     @Test
-    @DisplayName("Авторизация. Логин и пароль пустые поля")
     public void emptyloginAndPassword() throws InterruptedException {
         Thread.sleep(3000);
         AuthorizationAction.buttonAuthorization();
@@ -73,7 +68,6 @@ public class AuthorizationTests {
     }
 
     @Test
-    @DisplayName("Выход из аккаунта")
     public void logOut() throws InterruptedException {
         AuthorizationAction.loginPersonalAccount(TrueLogin,TruePassword );
         PanelAction.logOut();
