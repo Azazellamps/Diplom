@@ -15,4 +15,4 @@
 5. Исправить формат отображения даты создания новостей;
 6. Сделать кликабельной кнопку О приложении в разделе Новости.
 
-![Bag report](https://github.com/Azazellamps/Diplom/issues)
+[Bag report](https://github.com/Azazellamps/Diplom/issues)
