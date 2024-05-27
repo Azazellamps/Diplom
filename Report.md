@@ -14,6 +14,5 @@
 4. Исправить публикацию отложенных новостей;
 5. Исправить формат отображения даты создания новостей;
 6. Сделать кликабельной кнопку О приложении в разделе Новости.
-   
-Отчет Allure
-![** Bag report** ](https://github.com/Azazellamps/Diplom/issues)
+
+![Bag report](https://github.com/Azazellamps/Diplom/issues)
