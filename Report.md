@@ -16,4 +16,4 @@
 6. Сделать кликабельной кнопку О приложении в разделе Новости.
    
 Отчет Allure
-Bag report
+![** Bag report** ](https://github.com/Azazellamps/Diplom/issues)
