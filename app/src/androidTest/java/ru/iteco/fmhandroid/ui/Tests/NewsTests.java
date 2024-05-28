@@ -38,7 +38,7 @@ public class NewsTests {
 
     @Before
     public void startNews() {
-//        authorizationSteps.checkLogIn();
+        authorizationSteps.checkLogIn();
         mainSteps.mainPage();
         mainSteps.checkMenuNews();
     }
