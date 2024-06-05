@@ -1,7 +1,7 @@
 {
-    "name": "Раздел Новости",
-    "start": 1716755064381,
-    "stop": 1716755072864,
+    "name": "Все Новости",
+    "start": 1717587656940,
+    "stop": 1717587664702,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755064939,
-            "stop": 1716755064939,
+            "start": 1717587657518,
+            "stop": 1717587657518,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755070535,
-            "stop": 1716755070535,
+            "start": 1717587663029,
+            "stop": 1717587663029,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Главное меню. Раздел Новости",
-            "start": 1716755070541,
-            "stop": 1716755070541,
+            "name": "Переход на страницу ВСЕ НОВОСТИ",
+            "start": 1717587663035,
+            "stop": 1717587663035,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -61,9 +61,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "75e6a0ef-6c5c-4bbe-99c1-56d160fc5025",
-    "historyId": "7cc2aadaf0a252c15ce8d5c7301893ce",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.MainTests.pageNews",
+    "uuid": "28c5cda8-8041-418b-ae43-13aef09ab2e1",
+    "historyId": "33c788c13c0604ada79113efb0707bee",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.MainTests.AllNews",
     "labels": [
         {
             "name": "package",
@@ -75,7 +75,7 @@
         },
         {
             "name": "testMethod",
-            "value": "pageNews"
+            "value": "AllNews"
         },
         {
             "name": "suite",
@@ -87,7 +87,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

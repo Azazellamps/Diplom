@@ -1,7 +1,7 @@
 {
-    "name": "Переход по ссылке Пользовательское соглашение",
-    "start": 1716754978722,
-    "stop": 1716754987419,
+    "name": "Сортировка новостей",
+    "start": 1717587843607,
+    "stop": 1717587852362,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716754979674,
-            "stop": 1716754979674,
+            "start": 1717587844175,
+            "stop": 1717587844176,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716754985121,
-            "stop": 1716754985121,
+            "start": 1717587849676,
+            "stop": 1717587849676,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Главное меню. Раздел О приложении",
-            "start": 1716754985128,
-            "stop": 1716754985128,
+            "name": "Главное меню. Раздел Новости",
+            "start": 1717587849682,
+            "stop": 1717587849682,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +57,9 @@
             ]
         },
         {
-            "name": "Проверка кликабельности надписи Пользовательское соглашение",
-            "start": 1716754986063,
-            "stop": 1716754986064,
+            "name": "Сортировка",
+            "start": 1717587851085,
+            "stop": 1717587851085,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -73,9 +73,9 @@
             ]
         },
         {
-            "name": "Переход по ссылке Пользовательское соглашение ",
-            "start": 1716754986351,
-            "stop": 1716754986352,
+            "name": "Новости",
+            "start": 1717587851466,
+            "stop": 1717587851466,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -93,9 +93,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "5c19fe88-823d-48f1-9b60-186adca1ee48",
-    "historyId": "fef7320c6a4fd9315d2e6c737f36c0fa",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.AboutAppTests.followingALinkTermsOfUse",
+    "uuid": "149fe03f-002a-440e-a362-e12d12a748a1",
+    "historyId": "4634c9ef8e87745d6e136cbcd15fe15d",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.sortNews",
     "labels": [
         {
             "name": "package",
@@ -103,15 +103,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.iteco.fmhandroid.ui.Tests.AboutAppTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.NewsTests"
         },
         {
             "name": "testMethod",
-            "value": "followingALinkTermsOfUse"
+            "value": "sortNews"
         },
         {
             "name": "suite",
-            "value": "ru.iteco.fmhandroid.ui.Tests.AboutAppTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.NewsTests"
         },
         {
             "name": "host",
@@ -119,7 +119,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

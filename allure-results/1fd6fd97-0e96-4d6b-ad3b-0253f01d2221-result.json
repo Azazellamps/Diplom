@@ -1,7 +1,7 @@
 {
-    "name": "Авторизация. Невалидный логин",
-    "start": 1716755012763,
-    "stop": 1716755017588,
+    "name": "Переход на страницу Создать новость",
+    "start": 1717587820516,
+    "stop": 1717587830155,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -9,9 +9,9 @@
     "statusDetails": null,
     "steps": [
         {
-            "name": "Загрузка",
-            "start": 1716755013324,
-            "stop": 1716755013325,
+            "name": "Вход в аккаунт",
+            "start": 1717587821104,
+            "stop": 1717587821105,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -25,9 +25,9 @@
             ]
         },
         {
-            "name": "Окно Авторизация",
-            "start": 1716755016253,
-            "stop": 1716755016253,
+            "name": "Главная страница",
+            "start": 1717587826611,
+            "stop": 1717587826611,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Окно Авторизация",
-            "start": 1716755016266,
-            "stop": 1716755016266,
+            "name": "Главное меню. Раздел Новости",
+            "start": 1717587826619,
+            "stop": 1717587826620,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +57,9 @@
             ]
         },
         {
-            "name": "Заполнение поля логин",
-            "start": 1716755016272,
-            "stop": 1716755016272,
+            "name": "Нажать кнопку Редактирование",
+            "start": 1717587827991,
+            "stop": 1717587827991,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -73,9 +73,9 @@
             ]
         },
         {
-            "name": "Заполнение поля пароль",
-            "start": 1716755016297,
-            "stop": 1716755016297,
+            "name": "Создание Панель управления",
+            "start": 1717587828586,
+            "stop": 1717587828586,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -89,25 +89,9 @@
             ]
         },
         {
-            "name": "Нажать кнопку Войти",
-            "start": 1716755016328,
-            "stop": 1716755016328,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Неверный логин или пароль",
-            "start": 1716755016626,
-            "stop": 1716755016626,
+            "name": "Проверка страницы создание новости",
+            "start": 1717587829253,
+            "stop": 1717587829253,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -125,9 +109,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "ee4068d5-1b4b-4519-8f87-5f6e166a74ed",
-    "historyId": "339aa78f4a3eecfb6c9902a9600b993c",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests.invalidLogin",
+    "uuid": "1fd6fd97-0e96-4d6b-ad3b-0253f01d2221",
+    "historyId": "48bfce1cfe981f73802c3740997580f5",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.createNews",
     "labels": [
         {
             "name": "package",
@@ -135,15 +119,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.NewsTests"
         },
         {
             "name": "testMethod",
-            "value": "invalidLogin"
+            "value": "createNews"
         },
         {
             "name": "suite",
-            "value": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.NewsTests"
         },
         {
             "name": "host",
@@ -151,7 +135,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

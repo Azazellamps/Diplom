@@ -1,7 +1,7 @@
 {
-    "name": "Создание новости. Пустое поле описание",
-    "start": 1716755129538,
-    "stop": 1716755142933,
+    "name": "Создание новости.Пустое поле дата",
+    "start": 1717587751884,
+    "stop": 1717587764415,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755130098,
-            "stop": 1716755130098,
+            "start": 1717587752469,
+            "stop": 1717587752469,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755135624,
-            "stop": 1716755135624,
+            "start": 1717587757951,
+            "stop": 1717587757951,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Главное меню. Раздел Новости",
-            "start": 1716755135633,
-            "stop": 1716755135633,
+            "start": 1717587757960,
+            "stop": 1717587757960,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Нажать кнопку Редактирование",
-            "start": 1716755137052,
-            "stop": 1716755137052,
+            "start": 1717587759330,
+            "stop": 1717587759330,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Создание Панель управления",
-            "start": 1716755137712,
-            "stop": 1716755137712,
+            "start": 1717587760055,
+            "stop": 1717587760056,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Выбрать категорию",
-            "start": 1716755138379,
-            "stop": 1716755138379,
+            "start": 1717587760770,
+            "stop": 1717587760771,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -106,40 +106,8 @@
         },
         {
             "name": "Создать заголовок",
-            "start": 1716755138960,
-            "stop": 1716755138960,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Выбор даты",
-            "start": 1716755139059,
-            "stop": 1716755139060,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Нажать кнопку ОК",
-            "start": 1716755139763,
-            "stop": 1716755139764,
+            "start": 1717587761525,
+            "stop": 1717587761525,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -154,8 +122,8 @@
         },
         {
             "name": "Выбор времени",
-            "start": 1716755140271,
-            "stop": 1716755140271,
+            "start": 1717587761605,
+            "stop": 1717587761605,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -170,8 +138,8 @@
         },
         {
             "name": "Нажать кнопку ОК",
-            "start": 1716755141241,
-            "stop": 1716755141242,
+            "start": 1717587762513,
+            "stop": 1717587762513,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -186,8 +154,8 @@
         },
         {
             "name": "Создать описание",
-            "start": 1716755141606,
-            "stop": 1716755141606,
+            "start": 1717587763017,
+            "stop": 1717587763018,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -202,8 +170,8 @@
         },
         {
             "name": "Нажать на кнопку сохранить",
-            "start": 1716755141632,
-            "stop": 1716755141632,
+            "start": 1717587763070,
+            "stop": 1717587763070,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -218,8 +186,8 @@
         },
         {
             "name": "Проверка пустых полей",
-            "start": 1716755142031,
-            "stop": 1716755142031,
+            "start": 1717587763470,
+            "stop": 1717587763472,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -237,9 +205,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "e1d42468-6f32-48da-ae74-5e412decfd4d",
-    "historyId": "d2a669b7360e296f30e9d66f340f2b65",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.createNewsEmptyDescription",
+    "uuid": "f8c9bbcf-75ef-4a62-afba-64c35b69b8a3",
+    "historyId": "8fa272231f929bb0662e39e8b7fc9518",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.createNewsEmptyDate",
     "labels": [
         {
             "name": "package",
@@ -251,7 +219,7 @@
         },
         {
             "name": "testMethod",
-            "value": "createNewsEmptyDescription"
+            "value": "createNewsEmptyDate"
         },
         {
             "name": "suite",
@@ -263,7 +231,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

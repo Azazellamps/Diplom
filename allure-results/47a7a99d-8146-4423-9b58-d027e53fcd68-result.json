@@ -1,7 +1,7 @@
 {
     "name": "Переход на страницу Фильтровать новости",
-    "start": 1716755082827,
-    "stop": 1716755091879,
+    "start": 1717587691089,
+    "stop": 1717587700116,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755083490,
-            "stop": 1716755083490,
+            "start": 1717587691662,
+            "stop": 1717587691662,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755088939,
-            "stop": 1716755088939,
+            "start": 1717587697122,
+            "stop": 1717587697122,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Главное меню. Раздел Новости",
-            "start": 1716755088946,
-            "stop": 1716755088946,
+            "start": 1717587697129,
+            "stop": 1717587697129,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Новости",
-            "start": 1716755090344,
-            "stop": 1716755090344,
+            "start": 1717587698515,
+            "stop": 1717587698515,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Нажать кнопку Фильтровать ",
-            "start": 1716755090357,
-            "stop": 1716755090358,
+            "start": 1717587698525,
+            "stop": 1717587698525,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Фильтровать новости",
-            "start": 1716755090978,
-            "stop": 1716755090978,
+            "start": 1717587699154,
+            "stop": 1717587699154,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -109,7 +109,7 @@
     ],
     "parameters": [
     ],
-    "uuid": "369cbce5-ca8f-427c-a1d4-4815fb0d4874",
+    "uuid": "47a7a99d-8146-4423-9b58-d027e53fcd68",
     "historyId": "7c69a676f1774bd9f0d3a3f473a8a2e2",
     "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.filterNews",
     "labels": [
@@ -135,7 +135,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

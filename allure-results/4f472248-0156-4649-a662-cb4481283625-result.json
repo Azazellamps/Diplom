@@ -1,7 +1,7 @@
 {
     "name": "Сортировка Панель управления",
-    "start": 1716755072906,
-    "stop": 1716755082707,
+    "start": 1717587681379,
+    "stop": 1717587691023,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755073465,
-            "stop": 1716755073465,
+            "start": 1717587681963,
+            "stop": 1717587681963,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755078961,
-            "stop": 1716755078961,
+            "start": 1717587687480,
+            "stop": 1717587687480,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Главное меню. Раздел Новости",
-            "start": 1716755078967,
-            "stop": 1716755078967,
+            "start": 1717587687486,
+            "stop": 1717587687487,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Нажать кнопку Редактирование",
-            "start": 1716755080408,
-            "stop": 1716755080409,
+            "start": 1717587688851,
+            "stop": 1717587688851,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Сортировка Панель управления",
-            "start": 1716755081090,
-            "stop": 1716755081091,
+            "start": 1717587689548,
+            "stop": 1717587689549,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Проверка страницы Панель управления",
-            "start": 1716755081646,
-            "stop": 1716755081647,
+            "start": 1717587690118,
+            "stop": 1717587690118,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -109,7 +109,7 @@
     ],
     "parameters": [
     ],
-    "uuid": "bae9671d-616e-42c3-813c-627a39392799",
+    "uuid": "4f472248-0156-4649-a662-cb4481283625",
     "historyId": "e4366d5c09d6798f523b49f534803207",
     "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.sortControlPanel",
     "labels": [
@@ -135,7 +135,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

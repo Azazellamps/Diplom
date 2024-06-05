@@ -122,6 +122,8 @@ public class NewsTests {
         newsSteps.clickOkButton();
         newsSteps.createDescription(description);
         newsSteps.saveButton();
+//проверка что новость появилась в списке
+        newsSteps.checkNewsHasBeenCreated(myTittle);
     }
 
     @Test

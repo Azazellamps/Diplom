@@ -1,7 +1,7 @@
 {
     "name": "Раздел Главная",
-    "start": 1716755038640,
-    "stop": 1716755048260,
+    "start": 1717587647175,
+    "stop": 1717587656879,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755039201,
-            "stop": 1716755039201,
+            "start": 1717587647742,
+            "stop": 1717587647742,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755044714,
-            "stop": 1716755044714,
+            "start": 1717587653287,
+            "stop": 1717587653287,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Гланое меню. Раздел Главная из раздела Новости",
-            "start": 1716755044720,
-            "stop": 1716755044720,
+            "start": 1717587653296,
+            "stop": 1717587653296,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -61,7 +61,7 @@
     ],
     "parameters": [
     ],
-    "uuid": "d9794f20-a67f-44f4-814c-974ba0fac4aa",
+    "uuid": "1936e742-0286-46dd-bc2f-e3170017eadd",
     "historyId": "5e265db4de4569294a1d9af9dd959eb9",
     "fullName": "ru.iteco.fmhandroid.ui.Tests.MainTests.openHomePageOfNews",
     "labels": [
@@ -87,7 +87,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

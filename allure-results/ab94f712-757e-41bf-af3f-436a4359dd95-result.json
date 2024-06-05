@@ -1,7 +1,7 @@
 {
-    "name": "Создание новости. Валидные данные",
-    "start": 1716755105853,
-    "stop": 1716755119631,
+    "name": "Создание новости. Несуществующая категория",
+    "start": 1717587787559,
+    "stop": 1717587800773,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755106405,
-            "stop": 1716755106405,
+            "start": 1717587788120,
+            "stop": 1717587788120,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755111898,
-            "stop": 1716755111898,
+            "start": 1717587793630,
+            "stop": 1717587793630,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Главное меню. Раздел Новости",
-            "start": 1716755111905,
-            "stop": 1716755111905,
+            "start": 1717587793636,
+            "stop": 1717587793636,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Нажать кнопку Редактирование",
-            "start": 1716755113258,
-            "stop": 1716755113258,
+            "start": 1717587794995,
+            "stop": 1717587794995,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Создание Панель управления",
-            "start": 1716755113881,
-            "stop": 1716755113882,
+            "start": 1717587795587,
+            "stop": 1717587795588,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Выбрать категорию",
-            "start": 1716755114595,
-            "stop": 1716755114595,
+            "start": 1717587796293,
+            "stop": 1717587796294,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -106,8 +106,8 @@
         },
         {
             "name": "Создать заголовок",
-            "start": 1716755115325,
-            "stop": 1716755115325,
+            "start": 1717587796914,
+            "stop": 1717587796914,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -122,8 +122,8 @@
         },
         {
             "name": "Выбор даты",
-            "start": 1716755115402,
-            "stop": 1716755115403,
+            "start": 1717587796964,
+            "stop": 1717587796964,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -138,8 +138,8 @@
         },
         {
             "name": "Нажать кнопку ОК",
-            "start": 1716755116109,
-            "stop": 1716755116110,
+            "start": 1717587797706,
+            "stop": 1717587797706,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -154,8 +154,8 @@
         },
         {
             "name": "Выбор времени",
-            "start": 1716755116606,
-            "stop": 1716755116607,
+            "start": 1717587798209,
+            "stop": 1717587798209,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -170,8 +170,8 @@
         },
         {
             "name": "Нажать кнопку ОК",
-            "start": 1716755117513,
-            "stop": 1716755117513,
+            "start": 1717587799106,
+            "stop": 1717587799106,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -186,8 +186,8 @@
         },
         {
             "name": "Создать описание",
-            "start": 1716755118025,
-            "stop": 1716755118026,
+            "start": 1717587799495,
+            "stop": 1717587799495,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -202,8 +202,24 @@
         },
         {
             "name": "Нажать на кнопку сохранить",
-            "start": 1716755118095,
-            "stop": 1716755118096,
+            "start": 1717587799518,
+            "stop": 1717587799518,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Новая категория",
+            "start": 1717587799850,
+            "stop": 1717587799850,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -221,9 +237,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "cd4fa347-a01e-4ac2-becf-f339b7cdd037",
-    "historyId": "fe8a7aa6de766d44db29e44ec6e1c0c2",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.createNewsControlPanel",
+    "uuid": "ab94f712-757e-41bf-af3f-436a4359dd95",
+    "historyId": "744ed66ba069816ad7b861566a470c91",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.createNewsNonExistentCategory",
     "labels": [
         {
             "name": "package",
@@ -235,7 +251,7 @@
         },
         {
             "name": "testMethod",
-            "value": "createNewsControlPanel"
+            "value": "createNewsNonExistentCategory"
         },
         {
             "name": "suite",
@@ -247,7 +263,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

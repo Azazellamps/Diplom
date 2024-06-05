@@ -1,7 +1,7 @@
 {
-    "name": "Создание новости.Пустое поле категория",
-    "start": 1716755220925,
-    "stop": 1716755234365,
+    "name": "Создание новости. Валидные данные",
+    "start": 1717587714411,
+    "stop": 1717587728487,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755221497,
-            "stop": 1716755221497,
+            "start": 1717587715000,
+            "stop": 1717587715000,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755226965,
-            "stop": 1716755226965,
+            "start": 1717587720476,
+            "stop": 1717587720476,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Главное меню. Раздел Новости",
-            "start": 1716755226971,
-            "stop": 1716755226972,
+            "start": 1717587720483,
+            "stop": 1717587720483,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Нажать кнопку Редактирование",
-            "start": 1716755228308,
-            "stop": 1716755228308,
+            "start": 1717587722063,
+            "stop": 1717587722063,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Создание Панель управления",
-            "start": 1716755228953,
-            "stop": 1716755228954,
+            "start": 1717587722720,
+            "stop": 1717587722721,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Выбрать категорию",
-            "start": 1716755229604,
-            "stop": 1716755229605,
+            "start": 1717587723435,
+            "stop": 1717587723436,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -106,8 +106,8 @@
         },
         {
             "name": "Создать заголовок",
-            "start": 1716755230236,
-            "stop": 1716755230236,
+            "start": 1717587724206,
+            "stop": 1717587724206,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -122,8 +122,8 @@
         },
         {
             "name": "Выбор даты",
-            "start": 1716755230292,
-            "stop": 1716755230292,
+            "start": 1717587724297,
+            "stop": 1717587724297,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -138,8 +138,8 @@
         },
         {
             "name": "Нажать кнопку ОК",
-            "start": 1716755231014,
-            "stop": 1716755231015,
+            "start": 1717587725007,
+            "stop": 1717587725008,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -154,8 +154,8 @@
         },
         {
             "name": "Выбор времени",
-            "start": 1716755231525,
-            "stop": 1716755231526,
+            "start": 1717587725403,
+            "stop": 1717587725404,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -170,8 +170,8 @@
         },
         {
             "name": "Нажать кнопку ОК",
-            "start": 1716755232474,
-            "stop": 1716755232475,
+            "start": 1717587726319,
+            "stop": 1717587726319,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -186,8 +186,8 @@
         },
         {
             "name": "Создать описание",
-            "start": 1716755232994,
-            "stop": 1716755232996,
+            "start": 1717587726823,
+            "stop": 1717587726823,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -202,8 +202,8 @@
         },
         {
             "name": "Нажать на кнопку сохранить",
-            "start": 1716755233040,
-            "stop": 1716755233040,
+            "start": 1717587726865,
+            "stop": 1717587726865,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -217,9 +217,9 @@
             ]
         },
         {
-            "name": "Проверка пустых полей",
-            "start": 1716755233437,
-            "stop": 1716755233437,
+            "name": "Проверка созданной новости",
+            "start": 1717587727535,
+            "stop": 1717587727535,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -237,9 +237,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "a946a2b4-1227-405f-8166-eb6dade3c356",
-    "historyId": "e890cd4ae76b73f696a1b018b6b6e24a",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.createNewsEmptyCategory",
+    "uuid": "55c4dfe6-6505-4358-a8f8-9bc0ef021263",
+    "historyId": "fe8a7aa6de766d44db29e44ec6e1c0c2",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.createNewsControlPanel",
     "labels": [
         {
             "name": "package",
@@ -251,7 +251,7 @@
         },
         {
             "name": "testMethod",
-            "value": "createNewsEmptyCategory"
+            "value": "createNewsControlPanel"
         },
         {
             "name": "suite",
@@ -263,7 +263,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

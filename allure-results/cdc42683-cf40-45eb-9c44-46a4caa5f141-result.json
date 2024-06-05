@@ -1,7 +1,7 @@
 {
-    "name": "Авторизация. Пустые поля логин и пароль",
-    "start": 1716755003013,
-    "stop": 1716755007806,
+    "name": "Переход по ссылке Политика конфиденциальности",
+    "start": 1717587577506,
+    "stop": 1717587586417,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -9,9 +9,9 @@
     "statusDetails": null,
     "steps": [
         {
-            "name": "Загрузка",
-            "start": 1716755003608,
-            "stop": 1716755003608,
+            "name": "Вход в аккаунт",
+            "start": 1717587578044,
+            "stop": 1717587578045,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -25,9 +25,9 @@
             ]
         },
         {
-            "name": "Окно Авторизация",
-            "start": 1716755006572,
-            "stop": 1716755006572,
+            "name": "Главная страница",
+            "start": 1717587583973,
+            "stop": 1717587583973,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Окно Авторизация",
-            "start": 1716755006586,
-            "stop": 1716755006586,
+            "name": "Главное меню. Раздел О приложении",
+            "start": 1717587583980,
+            "stop": 1717587583980,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +57,9 @@
             ]
         },
         {
-            "name": "Нажать кнопку Войти",
-            "start": 1716755006593,
-            "stop": 1716755006593,
+            "name": "Проверка кликабильности надписи Политика конфиденциальности",
+            "start": 1717587585073,
+            "stop": 1717587585074,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -73,9 +73,9 @@
             ]
         },
         {
-            "name": "Пустой логин или пароль",
-            "start": 1716755006906,
-            "stop": 1716755006907,
+            "name": "Переход по ссылке Политика конфиденциальности",
+            "start": 1717587585370,
+            "stop": 1717587585371,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -93,9 +93,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "0629cc80-11d4-4c33-9601-1fb17dc593e6",
-    "historyId": "dd8b0942703b96477bcb7c2992e20623",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests.emptyAuthorization",
+    "uuid": "cdc42683-cf40-45eb-9c44-46a4caa5f141",
+    "historyId": "80815044f1f77210432dcba0b35c2066",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.AboutAppTests.followingALinkPrivacyPolicy",
     "labels": [
         {
             "name": "package",
@@ -103,15 +103,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.AboutAppTests"
         },
         {
             "name": "testMethod",
-            "value": "emptyAuthorization"
+            "value": "followingALinkPrivacyPolicy"
         },
         {
             "name": "suite",
-            "value": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.AboutAppTests"
         },
         {
             "name": "host",
@@ -119,7 +119,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

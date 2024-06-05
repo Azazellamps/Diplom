@@ -1,7 +1,7 @@
 {
-    "name": "Проверка кнопки Отмена на странице Фильтровать новости",
-    "start": 1716755191585,
-    "stop": 1716755201340,
+    "name": "Свернуть/развернуть цитату",
+    "start": 1717587638458,
+    "stop": 1717587647088,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755192153,
-            "stop": 1716755192153,
+            "start": 1717587639051,
+            "stop": 1717587639051,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755197681,
-            "stop": 1716755197681,
+            "start": 1717587644608,
+            "stop": 1717587644608,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Главное меню. Раздел Новости",
-            "start": 1716755197689,
-            "stop": 1716755197689,
+            "name": "Клик по кнопке бабочка",
+            "start": 1717587644617,
+            "stop": 1717587644617,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +57,9 @@
             ]
         },
         {
-            "name": "Новости",
-            "start": 1716755199109,
-            "stop": 1716755199109,
+            "name": "Развернуть/свернуть цитату",
+            "start": 1717587645137,
+            "stop": 1717587645137,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -73,9 +73,9 @@
             ]
         },
         {
-            "name": "Нажать кнопку Фильтровать ",
-            "start": 1716755199122,
-            "stop": 1716755199122,
+            "name": "Отображение дополнительной цитаты",
+            "start": 1717587645722,
+            "stop": 1717587645722,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -89,25 +89,9 @@
             ]
         },
         {
-            "name": "Нажать на кнопку отменить",
-            "start": 1716755199698,
-            "stop": 1716755199698,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Новости",
-            "start": 1716755200398,
-            "stop": 1716755200398,
+            "name": "Развернуть/свернуть цитату",
+            "start": 1717587645755,
+            "stop": 1717587645755,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -125,9 +109,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "7a428dd2-8ad8-4131-891e-c855afc6c486",
-    "historyId": "844e3ad2d33569a0e4fb9b295c12afa8",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.cancelButtonFilter",
+    "uuid": "3c8fdc23-978d-4df7-b6bf-1989d969fc3d",
+    "historyId": "879caac66b7132fad62fd95e872c1322",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.ButterflyTest.quoteCollapseExpand",
     "labels": [
         {
             "name": "package",
@@ -135,15 +119,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.iteco.fmhandroid.ui.Tests.NewsTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.ButterflyTest"
         },
         {
             "name": "testMethod",
-            "value": "cancelButtonFilter"
+            "value": "quoteCollapseExpand"
         },
         {
             "name": "suite",
-            "value": "ru.iteco.fmhandroid.ui.Tests.NewsTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.ButterflyTest"
         },
         {
             "name": "host",
@@ -151,7 +135,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

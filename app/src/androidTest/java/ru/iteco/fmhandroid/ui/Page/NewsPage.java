@@ -4,8 +4,8 @@ import androidx.test.espresso.ViewInteraction;
 import ru.iteco.fmhandroid.R;
 import static androidx.test.espresso.Espresso.onView;
 import static org.hamcrest.core.AllOf.allOf;
-import static androidx.test.espresso.matcher.ViewMatchers.isRoot;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.isRoot;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 public class NewsPage {
@@ -37,5 +37,6 @@ public class NewsPage {
     public static final String emptyDescription = "";
     public static final String fillInTheBlankFields = "Заполните пустые поля";
     public static final String saveFailed = "Сохранение не удалось. Попробуйте позднее.";
+
 
 }

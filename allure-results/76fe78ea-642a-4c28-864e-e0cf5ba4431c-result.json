@@ -1,7 +1,7 @@
 {
-    "name": "Авторизация. Символы в полях логин и пароль",
-    "start": 1716754996270,
-    "stop": 1716755002952,
+    "name": "Авторизация. Пустые поля логин и пароль",
+    "start": 1717587610716,
+    "stop": 1717587615708,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Загрузка",
-            "start": 1716754996798,
-            "stop": 1716754996799,
+            "start": 1717587611279,
+            "stop": 1717587611280,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,24 +26,8 @@
         },
         {
             "name": "Окно Авторизация",
-            "start": 1716754999889,
-            "stop": 1716754999889,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Выход из аккаунта",
-            "start": 1716755000505,
-            "stop": 1716755000505,
+            "start": 1717587614389,
+            "stop": 1717587614389,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,40 +42,8 @@
         },
         {
             "name": "Окно Авторизация",
-            "start": 1716755001625,
-            "stop": 1716755001625,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Заполнение поля логин",
-            "start": 1716755001642,
-            "stop": 1716755001643,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Заполнение поля пароль",
-            "start": 1716755001687,
-            "stop": 1716755001687,
+            "start": 1717587614402,
+            "stop": 1717587614402,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -106,8 +58,8 @@
         },
         {
             "name": "Нажать кнопку Войти",
-            "start": 1716755001721,
-            "stop": 1716755001721,
+            "start": 1717587614409,
+            "stop": 1717587614409,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -121,9 +73,9 @@
             ]
         },
         {
-            "name": "Неверный логин или пароль",
-            "start": 1716755002031,
-            "stop": 1716755002031,
+            "name": "Пустой логин или пароль",
+            "start": 1717587614764,
+            "stop": 1717587614765,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -141,9 +93,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "302b3169-d61d-4883-a4c4-7ea6ed5d8c02",
-    "historyId": "383468242775a3442257dcb0a7a5f72b",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests.loginCharacters",
+    "uuid": "76fe78ea-642a-4c28-864e-e0cf5ba4431c",
+    "historyId": "dd8b0942703b96477bcb7c2992e20623",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests.emptyAuthorization",
     "labels": [
         {
             "name": "package",
@@ -155,7 +107,7 @@
         },
         {
             "name": "testMethod",
-            "value": "loginCharacters"
+            "value": "emptyAuthorization"
         },
         {
             "name": "suite",
@@ -167,7 +119,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

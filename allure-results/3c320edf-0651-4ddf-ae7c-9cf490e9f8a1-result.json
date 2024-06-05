@@ -1,7 +1,7 @@
 {
-    "name": "Авторизация. Невалидный пароль",
-    "start": 1716755007864,
-    "stop": 1716755012681,
+    "name": "Проверка элементов экрана с тематическими цитатами",
+    "start": 1717587632339,
+    "stop": 1717587638385,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -9,9 +9,9 @@
     "statusDetails": null,
     "steps": [
         {
-            "name": "Загрузка",
-            "start": 1716755008430,
-            "stop": 1716755008430,
+            "name": "Вход в аккаунт",
+            "start": 1717587632902,
+            "stop": 1717587632902,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -25,9 +25,9 @@
             ]
         },
         {
-            "name": "Окно Авторизация",
-            "start": 1716755011357,
-            "stop": 1716755011357,
+            "name": "Авторизация валидный логин и пароль",
+            "start": 1717587636081,
+            "stop": 1717587636081,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Окно Авторизация",
-            "start": 1716755011366,
-            "stop": 1716755011366,
+            "name": "Главная страница",
+            "start": 1717587636490,
+            "stop": 1717587636490,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +57,9 @@
             ]
         },
         {
-            "name": "Заполнение поля логин",
-            "start": 1716755011376,
-            "stop": 1716755011376,
+            "name": "Главная страница",
+            "start": 1717587636829,
+            "stop": 1717587636829,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -73,9 +73,9 @@
             ]
         },
         {
-            "name": "Заполнение поля пароль",
-            "start": 1716755011405,
-            "stop": 1716755011405,
+            "name": "Клик по кнопке бабочка",
+            "start": 1717587636844,
+            "stop": 1717587636845,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -89,25 +89,9 @@
             ]
         },
         {
-            "name": "Нажать кнопку Войти",
-            "start": 1716755011434,
-            "stop": 1716755011434,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Неверный логин или пароль",
-            "start": 1716755011734,
-            "stop": 1716755011734,
+            "name": "Проверка элементов на странице цитаты",
+            "start": 1717587637390,
+            "stop": 1717587637391,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -125,9 +109,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "9c15f1b1-9281-4ad3-a7ee-88f69ff392c9",
-    "historyId": "b126752bd9e338eea2872e60d9bb2e34",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests.invalidPassword",
+    "uuid": "3c320edf-0651-4ddf-ae7c-9cf490e9f8a1",
+    "historyId": "fa2c770a5a67df2919103dd49364f922",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.ButterflyTest.elementQuote",
     "labels": [
         {
             "name": "package",
@@ -135,15 +119,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.ButterflyTest"
         },
         {
             "name": "testMethod",
-            "value": "invalidPassword"
+            "value": "elementQuote"
         },
         {
             "name": "suite",
-            "value": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.ButterflyTest"
         },
         {
             "name": "host",
@@ -151,7 +135,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

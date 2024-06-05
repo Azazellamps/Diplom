@@ -1,7 +1,7 @@
 {
-    "name": "Создание новости. Несуществующая категория",
-    "start": 1716755178409,
-    "stop": 1716755191488,
+    "name": "Создание новости. Пустое поле описание",
+    "start": 1717587738545,
+    "stop": 1717587751784,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755178991,
-            "stop": 1716755178991,
+            "start": 1717587739134,
+            "stop": 1717587739134,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755184473,
-            "stop": 1716755184473,
+            "start": 1717587744645,
+            "stop": 1717587744645,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Главное меню. Раздел Новости",
-            "start": 1716755184480,
-            "stop": 1716755184480,
+            "start": 1717587744651,
+            "stop": 1717587744651,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Нажать кнопку Редактирование",
-            "start": 1716755185825,
-            "stop": 1716755185825,
+            "start": 1717587746029,
+            "stop": 1717587746029,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Создание Панель управления",
-            "start": 1716755186433,
-            "stop": 1716755186433,
+            "start": 1717587746705,
+            "stop": 1717587746706,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Выбрать категорию",
-            "start": 1716755187079,
-            "stop": 1716755187080,
+            "start": 1717587747380,
+            "stop": 1717587747380,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -106,8 +106,8 @@
         },
         {
             "name": "Создать заголовок",
-            "start": 1716755187685,
-            "stop": 1716755187686,
+            "start": 1717587747917,
+            "stop": 1717587747917,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -122,8 +122,8 @@
         },
         {
             "name": "Выбор даты",
-            "start": 1716755187746,
-            "stop": 1716755187746,
+            "start": 1717587747995,
+            "stop": 1717587747995,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -138,8 +138,8 @@
         },
         {
             "name": "Нажать кнопку ОК",
-            "start": 1716755188531,
-            "stop": 1716755188531,
+            "start": 1717587748713,
+            "stop": 1717587748713,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -154,8 +154,8 @@
         },
         {
             "name": "Выбор времени",
-            "start": 1716755188923,
-            "stop": 1716755188923,
+            "start": 1717587749077,
+            "stop": 1717587749078,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -170,8 +170,8 @@
         },
         {
             "name": "Нажать кнопку ОК",
-            "start": 1716755189857,
-            "stop": 1716755189857,
+            "start": 1717587750078,
+            "stop": 1717587750078,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -186,8 +186,8 @@
         },
         {
             "name": "Создать описание",
-            "start": 1716755190233,
-            "stop": 1716755190233,
+            "start": 1717587750427,
+            "stop": 1717587750428,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -202,8 +202,8 @@
         },
         {
             "name": "Нажать на кнопку сохранить",
-            "start": 1716755190254,
-            "stop": 1716755190255,
+            "start": 1717587750444,
+            "stop": 1717587750444,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -217,9 +217,9 @@
             ]
         },
         {
-            "name": "Новая категория",
-            "start": 1716755190580,
-            "stop": 1716755190581,
+            "name": "Проверка пустых полей",
+            "start": 1717587750844,
+            "stop": 1717587750845,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -237,9 +237,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "124e085b-ba8c-4501-b69a-e7e241c43d2f",
-    "historyId": "744ed66ba069816ad7b861566a470c91",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.createNewsNonExistentCategory",
+    "uuid": "84561241-8055-46e8-a391-8dbccc8037c6",
+    "historyId": "d2a669b7360e296f30e9d66f340f2b65",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.createNewsEmptyDescription",
     "labels": [
         {
             "name": "package",
@@ -251,7 +251,7 @@
         },
         {
             "name": "testMethod",
-            "value": "createNewsNonExistentCategory"
+            "value": "createNewsEmptyDescription"
         },
         {
             "name": "suite",
@@ -263,7 +263,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

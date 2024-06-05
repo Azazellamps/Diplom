@@ -1,7 +1,7 @@
 {
     "name": "Авторизация. Валидные данные",
-    "start": 1716755017646,
-    "stop": 1716755024155,
+    "start": 1717587625720,
+    "stop": 1717587632256,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Загрузка",
-            "start": 1716755018203,
-            "stop": 1716755018203,
+            "start": 1717587626297,
+            "stop": 1717587626298,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Окно Авторизация",
-            "start": 1716755021338,
-            "stop": 1716755021338,
+            "start": 1717587629297,
+            "stop": 1717587629297,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Окно Авторизация",
-            "start": 1716755021351,
-            "stop": 1716755021351,
+            "start": 1717587629314,
+            "stop": 1717587629315,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Авторизация валидный логин и пароль",
-            "start": 1716755021360,
-            "stop": 1716755021360,
+            "start": 1717587629330,
+            "stop": 1717587629330,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755022017,
-            "stop": 1716755022017,
+            "start": 1717587629743,
+            "stop": 1717587629743,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Выход из аккаунта",
-            "start": 1716755022035,
-            "stop": 1716755022035,
+            "start": 1717587630120,
+            "stop": 1717587630120,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -109,7 +109,7 @@
     ],
     "parameters": [
     ],
-    "uuid": "027a096c-4c5e-4eb2-b251-47d1bb66f91a",
+    "uuid": "eca5d916-0876-4701-9156-c1f465f6f757",
     "historyId": "a22eefe89ff5d94f5d1097eed7d7a716",
     "fullName": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests.validAuthorization",
     "labels": [
@@ -135,7 +135,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

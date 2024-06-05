@@ -1,7 +1,7 @@
 {
-    "name": "Отмена фильтрации новостей из Панели управления",
-    "start": 1716755168203,
-    "stop": 1716755178324,
+    "name": "Авторизация. Символы в полях логин и пароль",
+    "start": 1717587604017,
+    "stop": 1717587610675,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -9,9 +9,9 @@
     "statusDetails": null,
     "steps": [
         {
-            "name": "Вход в аккаунт",
-            "start": 1716755168779,
-            "stop": 1716755168779,
+            "name": "Загрузка",
+            "start": 1717587604577,
+            "stop": 1717587604578,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -25,9 +25,9 @@
             ]
         },
         {
-            "name": "Главная страница",
-            "start": 1716755174261,
-            "stop": 1716755174262,
+            "name": "Окно Авторизация",
+            "start": 1717587607640,
+            "stop": 1717587607640,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Главное меню. Раздел Новости",
-            "start": 1716755174267,
-            "stop": 1716755174267,
+            "name": "Выход из аккаунта",
+            "start": 1717587608242,
+            "stop": 1717587608242,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +57,9 @@
             ]
         },
         {
-            "name": "Нажать кнопку Редактирование",
-            "start": 1716755175572,
-            "stop": 1716755175572,
+            "name": "Окно Авторизация",
+            "start": 1717587609348,
+            "stop": 1717587609348,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -73,9 +73,9 @@
             ]
         },
         {
-            "name": "Нажать кнопку Фильтровать ",
-            "start": 1716755176204,
-            "stop": 1716755176204,
+            "name": "Заполнение поля логин",
+            "start": 1717587609362,
+            "stop": 1717587609362,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -89,9 +89,9 @@
             ]
         },
         {
-            "name": "Нажать на кнопку отменить",
-            "start": 1716755176808,
-            "stop": 1716755176808,
+            "name": "Заполнение поля пароль",
+            "start": 1717587609401,
+            "stop": 1717587609402,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -105,9 +105,25 @@
             ]
         },
         {
-            "name": "Проверка страницы Панель управления",
-            "start": 1716755177413,
-            "stop": 1716755177414,
+            "name": "Нажать кнопку Войти",
+            "start": 1717587609441,
+            "stop": 1717587609441,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Неверный логин или пароль",
+            "start": 1717587609750,
+            "stop": 1717587609750,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -125,9 +141,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "ef7ae30f-b8f4-43c6-9cd3-12495d31e8a8",
-    "historyId": "4efe8a35168d49d739bf065ac2fa9ba5",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.cancelButtonFilterControlPanel",
+    "uuid": "1dc04934-4e68-4a32-8f89-67a15774f56c",
+    "historyId": "383468242775a3442257dcb0a7a5f72b",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests.loginCharacters",
     "labels": [
         {
             "name": "package",
@@ -135,15 +151,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.iteco.fmhandroid.ui.Tests.NewsTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests"
         },
         {
             "name": "testMethod",
-            "value": "cancelButtonFilterControlPanel"
+            "value": "loginCharacters"
         },
         {
             "name": "suite",
-            "value": "ru.iteco.fmhandroid.ui.Tests.NewsTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.AuthorizationTests"
         },
         {
             "name": "host",
@@ -151,7 +167,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

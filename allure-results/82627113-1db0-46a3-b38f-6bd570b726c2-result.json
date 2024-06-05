@@ -1,7 +1,7 @@
 {
-    "name": "Создание новости. Пустое поле время",
-    "start": 1716755155483,
-    "stop": 1716755168092,
+    "name": "Отмена фильтрации новостей из Панели управления",
+    "start": 1717587777318,
+    "stop": 1717587787523,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755156070,
-            "stop": 1716755156071,
+            "start": 1717587777925,
+            "stop": 1717587777925,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755161599,
-            "stop": 1716755161600,
+            "start": 1717587783406,
+            "stop": 1717587783406,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Главное меню. Раздел Новости",
-            "start": 1716755161606,
-            "stop": 1716755161606,
+            "start": 1717587783414,
+            "stop": 1717587783414,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Нажать кнопку Редактирование",
-            "start": 1716755162988,
-            "stop": 1716755162988,
+            "start": 1717587784779,
+            "stop": 1717587784779,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -73,9 +73,9 @@
             ]
         },
         {
-            "name": "Создание Панель управления",
-            "start": 1716755163652,
-            "stop": 1716755163653,
+            "name": "Нажать кнопку Фильтровать ",
+            "start": 1717587785424,
+            "stop": 1717587785424,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -89,9 +89,9 @@
             ]
         },
         {
-            "name": "Выбрать категорию",
-            "start": 1716755164356,
-            "stop": 1716755164357,
+            "name": "Нажать на кнопку отменить",
+            "start": 1717587785975,
+            "stop": 1717587785975,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -105,89 +105,9 @@
             ]
         },
         {
-            "name": "Создать заголовок",
-            "start": 1716755164932,
-            "stop": 1716755164932,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Выбор даты",
-            "start": 1716755164999,
-            "stop": 1716755164999,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Нажать кнопку ОК",
-            "start": 1716755165711,
-            "stop": 1716755165712,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Создать описание",
-            "start": 1716755166229,
-            "stop": 1716755166230,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Нажать на кнопку сохранить",
-            "start": 1716755166715,
-            "stop": 1716755166716,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Проверка пустых полей",
-            "start": 1716755167161,
-            "stop": 1716755167161,
+            "name": "Проверка страницы Панель управления",
+            "start": 1717587786556,
+            "stop": 1717587786557,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -205,9 +125,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "3a63e8bb-5871-4272-8224-c4578e8a64c0",
-    "historyId": "c7db0a64e914f21f65d63bf4fe0041f4",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.createNewsEmptyTime",
+    "uuid": "82627113-1db0-46a3-b38f-6bd570b726c2",
+    "historyId": "4efe8a35168d49d739bf065ac2fa9ba5",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.cancelButtonFilterControlPanel",
     "labels": [
         {
             "name": "package",
@@ -219,7 +139,7 @@
         },
         {
             "name": "testMethod",
-            "value": "createNewsEmptyTime"
+            "value": "cancelButtonFilterControlPanel"
         },
         {
             "name": "suite",
@@ -231,7 +151,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",

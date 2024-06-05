@@ -5,14 +5,18 @@ import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+
+
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static ru.iteco.fmhandroid.ui.Data.Helper.waitDisplayed;
 import static ru.iteco.fmhandroid.ui.Page.NewsPage.fillInTheBlankFields;
 import static ru.iteco.fmhandroid.ui.Page.NewsPage.saveFailed;
 
-import org.hamcrest.Matchers;
 
+import org.hamcrest.Matchers;
 
 import ru.iteco.fmhandroid.ui.Page.NewsPage;
 import io.qameta.allure.kotlin.Allure;
@@ -54,7 +58,7 @@ public class NewsSteps {
     }
 
     public void nowCategory(){
-        Allure.step("Новая категория");
+        Allure.step("Проверка новая категория");
         onView(Matchers.allOf(withContentDescription(saveFailed), isDisplayed()));
     }
 
@@ -117,6 +121,11 @@ public class NewsSteps {
         Allure.step("Нажать на кнопку отменить");
         newsPage.cancelButton.perform(click());
     }
+    public void checkNewsHasBeenCreated(String titleText) {
+        Allure.step("Проверка созданной новости");
+        onView(allOf(withText(titleText), isDisplayed())).check(matches(isDisplayed()));
+    }
+
 
 }
 

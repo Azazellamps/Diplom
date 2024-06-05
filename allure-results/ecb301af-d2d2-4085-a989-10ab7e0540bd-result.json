@@ -1,7 +1,7 @@
 {
-    "name": "Фильтровать новости из раздела Панель управления",
-    "start": 1716755201425,
-    "stop": 1716755210978,
+    "name": "Проверка элементов страницы О приложении",
+    "start": 1717587569960,
+    "stop": 1717587577463,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,24 @@
     "steps": [
         {
             "name": "Вход в аккаунт",
-            "start": 1716755202029,
-            "stop": 1716755202029,
+            "start": 1717587570782,
+            "stop": 1717587570783,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Авторизация валидный логин и пароль",
+            "start": 1717587574112,
+            "stop": 1717587574113,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +42,8 @@
         },
         {
             "name": "Главная страница",
-            "start": 1716755207553,
-            "stop": 1716755207553,
+            "start": 1717587574607,
+            "stop": 1717587574608,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +57,9 @@
             ]
         },
         {
-            "name": "Главное меню. Раздел Новости",
-            "start": 1716755207560,
-            "stop": 1716755207560,
+            "name": "Главная страница",
+            "start": 1717587575657,
+            "stop": 1717587575657,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +73,9 @@
             ]
         },
         {
-            "name": "Нажать кнопку Редактирование",
-            "start": 1716755208865,
-            "stop": 1716755208865,
+            "name": "Главное меню. Раздел О приложении",
+            "start": 1717587575669,
+            "stop": 1717587575669,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -73,25 +89,9 @@
             ]
         },
         {
-            "name": "Нажать кнопку Фильтровать ",
-            "start": 1716755209469,
-            "stop": 1716755209470,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Фильтровать новости",
-            "start": 1716755210049,
-            "stop": 1716755210049,
+            "name": "Проверка элементов экрана О приложении",
+            "start": 1717587576896,
+            "stop": 1717587576896,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -109,9 +109,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "a8d97ed6-27c3-4c66-bf65-444dd8acdc41",
-    "historyId": "e2d3b24c95efed818131ae85815b55e4",
-    "fullName": "ru.iteco.fmhandroid.ui.Tests.NewsTests.filterControlPanel",
+    "uuid": "ecb301af-d2d2-4085-a989-10ab7e0540bd",
+    "historyId": "ac7cd257f57ed12f52d69da69861a708",
+    "fullName": "ru.iteco.fmhandroid.ui.Tests.AboutAppTests.checkAboutAppElements",
     "labels": [
         {
             "name": "package",
@@ -119,15 +119,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.iteco.fmhandroid.ui.Tests.NewsTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.AboutAppTests"
         },
         {
             "name": "testMethod",
-            "value": "filterControlPanel"
+            "value": "checkAboutAppElements"
         },
         {
             "name": "suite",
-            "value": "ru.iteco.fmhandroid.ui.Tests.NewsTests"
+            "value": "ru.iteco.fmhandroid.ui.Tests.AboutAppTests"
         },
         {
             "name": "host",
@@ -135,7 +135,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2412)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(63037)"
         },
         {
             "name": "framework",
